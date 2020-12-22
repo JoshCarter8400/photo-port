@@ -21,7 +21,7 @@ it("renders", () => {
   expect(getByTestId("h1tag")).toHaveTextContent("Contact me");
 });
 
-it("renders", () => {
-  const { getByTestId } = render(<Contact />);
-  expect(getByTestId("submit-btn")).toHaveTextContent("Submit");
-});
+// it("renders", () => {
+//   const { getByTestId } = render(<Contact />);
+//   expect(getByTestId("submit-btn")).toHaveTextContent("Submit");
+// });
